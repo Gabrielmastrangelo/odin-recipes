@@ -1,0 +1,41 @@
+body {
+  background-color: gray;
+}
+
+* {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  color: blue;
+}
+
+a {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+  color: green;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+.right {
+  text-align: right;
+  color: yellow;
+}
