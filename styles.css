@@ -1,41 +1,61 @@
 body {
-  background-color: gray;
+  background-color: #E3F2FD;
+  max-width: 800px;
+  margin: 0px auto;
 }
 
 * {
   font-family: Arial, sans-serif;
-  color: white;
+  color: #33333;
 }
 
 img {
   width: 300px;
   height: auto;
+  border: 1px solid black;
+  padding: 3px;
+  background-color: white;
+}
+
+.main-container {
+}
+
+.container{
+  margin: 6px auto;
+  text-align: center;
+}
+
+.bottom {
+  background-color: #BBDEFB;
+  padding: 12px;
+  margin: 36px 6px;
+  border: 1px solid gray;
+}
+
+.bottom a {
+  display: block;
+  margin: 5px;
+  text-align: center;
+}
+
+.index-recipes {
+  margin: 5px auto;
 }
 
 h1 {
   text-align: center;
-  color: black;
+  color: #0D47A1;
 }
 
 h2 {
-  color: blue;
+  color: #547AA5;
 }
 
 a {
-  text-align: right;
+  color: #1565C0;
 }
 
-.left {
-  text-align: left;
-  color: green;
+li {
+  margin: 6px;
 }
 
-.center {
-  text-align: center;
-  color: red;
-}
-
-.right {
-  text-align: right;
-  color: yellow;
-}
